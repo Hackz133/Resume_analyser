@@ -21,10 +21,7 @@ from langchain.agents.middleware import (
 # LOAD ENV VARIABLES
 # =========================
 
-load_dotenv()
-
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 # =========================
 # MODEL
