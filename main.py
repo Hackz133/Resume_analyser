@@ -1,7 +1,6 @@
 # resume_analyzer.py
 import os
 import tempfile
-from dotenv import load_dotenv
 import streamlit as st
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.agents import create_agent
